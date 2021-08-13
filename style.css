@@ -1,0 +1,41 @@
+@font-face {
+	font-family:"Landasans";
+	src: url("LandasansMedium-ALJ6m.otf");
+}
+* {
+	box-sizing: border-box;
+	font-size: 12vw;
+	font-family: "Landasans";
+}
+div {
+	display: flex;
+}
+p {
+	font-size: 2vw;
+}
+.digit-box {
+	height: 100%;
+}
+.digit {
+	text-align: center;
+	height: 1em;
+	justify-content: center;
+	align-items: center;
+	border-style: solid hidden solid hidden;
+}
+.ticker {
+	flex-direction: row;
+	border-style: solid;
+	border-radius: 6px;
+	overflow: hidden;
+	height: 1em;
+	align-content: space-between;
+	justify-content: center;
+	align-items: center;
+}
+.dollar-sign {
+	align-items: center;
+	text-align: center;
+	height: 1em;
+	justify-content: center;
+}

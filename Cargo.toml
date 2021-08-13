@@ -1,0 +1,16 @@
+[package]
+name = "bitcoin-ticker"
+version = "0.1.0"
+authors = ["Jeff Wright <jeff@teamjk.page>"]
+edition = "2018"
+
+
+[dependencies]
+sauron = "0.37"
+log = "0.4"
+console_log = "0.2"
+serde = { version = "1.0", features = ["serde_derive"] }
+serde_json = "1.0"
+console_error_panic_hook = "0.1"
+rand = { version = "0.8" }
+getrandom = { version = "0.2", features = ["js"] }
