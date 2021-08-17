@@ -4,9 +4,22 @@
 }
 * {
 	box-sizing: border-box;
-	font-size: 12vw;
+	font-size: 25vw;
 	font-family: "Landasans";
 }
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: #eeeeee;
+	}
+}
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: white;
+		color: #111111;
+	}
+}
+
 div {
 	display: flex;
 }
@@ -29,7 +42,6 @@ p {
 	border-radius: 6px;
 	overflow: hidden;
 	height: 1em;
-	align-content: space-between;
 	justify-content: center;
 	align-items: center;
 }
